@@ -330,6 +330,75 @@ footer ul li a img {
     "footer footer";
 }
 
+/* GRID ESTRENOS */
+
+.gridEstrenos__container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "title title"
+    "main aside"
+    "section article"
+    "footer footer";
+}
+
+/* GRID SERIES */
+
+.gridSeries__container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "title title"
+    "main aside"
+    "section article"
+    "footer footer";
+}
+
+/* GRID CINE */
+
+.gridCine__container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "title title"
+    "main aside"
+    "section article"
+    "footer footer";
+}
+
+/* GRID DOCUMENTALES */
+
+.gridDocumentales__container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "title title"
+    "main aside"
+    "section article"
+    "footer footer";
+}
+
+/* GRID ESTRENOS */
+
+.gridReseñas__container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "title title"
+    "main aside"
+    "section article"
+    "footer footer";
+}
 
 /* MEDIA INDEX */
 
