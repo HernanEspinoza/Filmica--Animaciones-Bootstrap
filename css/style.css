@@ -26,7 +26,7 @@ nav ul li {
 }
 
 
-.NavBar ul li a {
+nav ul li a {
     text-decoration: none;
     color: rgba(255, 0, 0, 0.801);
     font-weight: bold;
@@ -171,6 +171,12 @@ footer ul li {
 footer ul li a img {
     width: 50px;
     margin: 0 15px 0 15px;
+    transition: all 2s;
+}
+
+.iconoFooter:hover {
+    transform: scale(2);
+    
 }
 
 
@@ -178,7 +184,7 @@ footer ul li a img {
 
 /* TITLE */
 
-.titulo__noticias {
+.titulo__pages {
     grid-area: title;
     color: black;
     background-color: rgba(255, 0, 0, 0.842);
