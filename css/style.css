@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.titulo__pagina {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+
+}
+
+div h1 {
+    color: black;
+}
+
 .row__1 {
     background-color: black;
 }
@@ -19,6 +30,11 @@
     display: inline-block;
     list-style: none;
     padding: 0 25px;
+}
+
+.nav__bar ul li:hover {
+    transform: scale(2);
+    transition: 3s;
 }
 
 .menu__usuario {
@@ -109,11 +125,18 @@
     
 }    
 
+.row__4 footer div ul li a img:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
 .row__4 h3 {
     color: rgba(255, 17, 0, 0.699);
 }
 
-
+footer div h3:hover {
+    transform:translate(2);
+}
 
 /* Sección Noticias */
 
@@ -264,8 +287,15 @@
 
 .row__6 footer div ul li a img {
     width: 50px;
+
     
 }    
+
+.row__6 footer div ul li a img:hover {
+    transform: scale(2);
+    transition: 2s;
+
+}
 
 .row__6 h3 {
     color: rgba(255, 17, 0, 0.699);
